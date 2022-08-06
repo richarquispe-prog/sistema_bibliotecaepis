@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #D0D3D4, #979A9A);
+    padding: 20px;
+}
+
+#conta {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+#contaE {
+    /*REGISTRO ESTUDIANTE*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #090909;
+}
+
+
+/*=======      LOGIN       ======*/
+
+#conta form {
+    /*border: 2px solid #000;*/
+    width: 30%;
+    height: 470px;
+    padding: 40px;
+    background: #F7F9F9;
+    /*display: flex;*/
+}
+
+input {
+    /* CORREO-CONTRASEÑA */
+    padding: 5px;
+    /*Ttamaño de la caja de texto*/
+    height: 30px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0);
+    /* la caja dee texto desaparece todo ele contorno */
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    /* solo la linea de abajo */
+    font-size: 15px;
+    /*TAMAÑO DE LA LETRA*/
+}
+
+input.button {
+    /* BOTON INGRESAR*/
+    border: 1px solid #000;
+    /*BOTON COLOR BORDE*/
+    background-color: #ECF0F1;
+    /*COLOR DE  FONDO*/
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    padding: center;
+    font-weight: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    /*mas grande la letra*/
+}
+
+.button:hover {
+    padding: 8px 18px;
+}
+
+a.button1 {
+    /* boton registrar */
+    text-decoration: none;
+    /*linea del link*/
+    border: 1px solid #000;
+    /*BOTON COLOR BORDE*/
+    height: 4px;
+    /*BOTON ALTURA*/
+    width: 180px;
+    /*TON ANCHO*/
+    border-radius: 10px;
+    background-color: #ECF0F1;
+    /*COLOR DE  FONDO*/
+    padding: 5px 26px;
+    color: #090909;
+    /*border-radius: 5px;*/
+    height: 30px;
+    font-weight: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    /*mas grande la letra*/
+}
+
+a.button {
+    text-decoration: none;
+    /*linea del link*/
+    border: 1px solid #000;
+    /*BOTON COLOR BORDE*/
+    height: 30px;
+    /*BOTON ALTURA*/
+    width: 180px;
+    /*BOTON ANCHO*/
+    border-radius: 10px;
+    background-color: #ECF0F1;
+    /*COLOR DE  FONDO*/
+    padding: 5px 26px;
+    color: #090909;
+    /*border-radius: 5px;*/
+    height: 30px;
+    width: 48%;
+    font-weight: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    /*mas grande la letra*/
+}
+
+a.button ul:hover {
+    padding: 50px;
+}
+
+#contaE form {
+    border: 2px solid #000;
+    width: 400px;
+    height: 600px;
+    /*background: #ADB8CA;*/
+    align-items: right;
+}
+
+.ctn-text {
+    width: 30%;
+    background-image: url(../../resources/img/EPIS.png);
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+}

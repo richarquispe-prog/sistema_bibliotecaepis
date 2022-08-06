@@ -1,0 +1,121 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #3498DB, #85C1E9);
+    padding: 20px;
+}
+
+#cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**/
+    display: flex
+}
+
+h2 {
+    color: #090909;
+}
+
+
+/*=======      LOGIN       ======*/
+
+#cont form {
+    /*border: 2px solid #000;*/
+    width: 30%;
+    height: 470px;
+    padding: 40px;
+    /*agrandar*/
+    background: #F0F3F4;
+    /*color*/
+    /*display: flex;*/
+}
+
+input {
+    /* CORREO-CONTRASEÑA */
+    padding: 5px;
+    /*Ttamaño de la caja de texto*/
+    height: 30px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0);
+    /* la caja dee texto desaparece todo ele contorno */
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    /* solo la linea de abajo */
+    font-size: 15px;
+    /*TAMAÑO DE LA LETRA*/
+}
+
+input.button_ {
+    /* BOTON INGRESAR*/
+    border: 1px solid #000;
+    /*BOTON COLOR BORDE*/
+    background-color: #ECF0F1;
+    /*COLOR DE  FONDO*/
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    padding: center;
+    font-weight: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    /*mas grande la letra*/
+}
+
+.button_:hover {
+    padding: 8px 18px;
+}
+
+a.button1 {
+    text-decoration: none;
+    /*linea del link*/
+    border: 1px solid #000;
+    /*BOTON COLOR BORDE*/
+    height: 4px;
+    /*BOTON ALTURA*/
+    width: 180px;
+    /*TON ANCHO*/
+    border-radius: 10px;
+    background-color: #ECF0F1;
+    /*COLOR DE  FONDO*/
+    padding: 5px 26px;
+    color: #090909;
+    /*border-radius: 5px;*/
+    height: 30px;
+    font-weight: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    /*mas grande la letra*/
+}
+
+.button1:hover {
+    padding: 8px 18px;
+}
+
+
+/*form.adm-reg{
+	border: 2px solid #000;
+	width: 400px;
+	height:600px;
+	background: #30A2FA;
+	align-items: right;
+}*/
+
+.ctn-text {
+    width: 30%;
+    background-image: url(../../resources/img/EPIS.png);
+    /* jalar la imagen */
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+}
